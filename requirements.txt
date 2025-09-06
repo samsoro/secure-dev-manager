@@ -1,0 +1,5 @@
+# Core Requirements
+psutil>=5.9.0
+
+# Optional Dependencies (uncomment if needed)
+# pywin32>=305  # For enhanced orphan prevention with Windows Job Objects
