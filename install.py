@@ -123,6 +123,16 @@ def verify_installation():
 
 def main():
     """Main installation process"""
+    # Handle --help flag
+    if '--help' in sys.argv:
+        print("Secure Dev Manager Installation Helper")
+        print("Usage: python install.py")
+        print("\nThis script will:")
+        print("  - Install required dependencies (psutil)")
+        print("  - Optionally install pywin32 for enhanced features")
+        print("  - Configure Claude Desktop integration")
+        return 0
+    
     print("\n🚀 Welcome to Secure Dev Manager Installation!\n")
     
     # Check Python version
